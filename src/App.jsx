@@ -1,12 +1,10 @@
 import { useState } from 'react'
 import './App.css'
-import SideNav from './components/sidenav'
-import ToDoLsit from './components/person'
-import Profile from './components/excersises/Ex1'
+import PackingList from './components/PackingList'
 function App() {
 
   return (
-    <Profile/>
+    <PackingList/>
   )
 }
 
