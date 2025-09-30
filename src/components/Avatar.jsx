@@ -1,12 +1,15 @@
-const Avatar = ({name="rami tab3n", age=22, img="person img", ...rest}) =>{
-    // rest(which isn't a keyword) means all other props
-    console.log(rest)
+import { getImgUrl } from "../utils/script";
+
+
+const Avatar = ({person, size}) =>{
     return(
-    <div>
-            <div>Person name: {name}</div>
-            <div>Person name: {age}</div>
-            <div>Person img: {img}</div>
-        </div>)
+    <img
+        className="avatar"
+        src={getImgUrl(person)}
+        alt={person.name}
+        width={size}
+        height="auto"
+    />)
 };
 
 export default Avatar;
