@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import './App.css'
-import List from './components/List'
+import Tea from './components/Tea'
 function App() {
 
   return (
-    <List/>
+    <Tea/>
   )
 }
 
