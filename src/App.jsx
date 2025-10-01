@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import './App.css'
-import Tea from './components/Tea'
+import StoryTray from "./components/excersises/Ex3"
 function App() {
 
   return (
-    <Tea/>
+    <StoryTray/>
   )
 }
 
