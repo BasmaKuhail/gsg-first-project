@@ -1,4 +1,4 @@
-import { people } from "./data";
+import { people } from "../../utils/data";
 const List = () =>{
     const filtteredData = people.filter((item)=> item.profession === "chemist")
     return <>
