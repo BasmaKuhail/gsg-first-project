@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import ToolBar from './components/day3/ToolBas'
+import NameingEvents from './components/day3/NamingEvents'
 function App() {
 
   return (
-    <ToolBar/>
+    <NameingEvents/>
   )
 }
 
