@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import CssModule from './components/day3/CssModules/CssModule'
+import ToolBar from './components/day3/ToolBas'
 function App() {
 
   return (
-    <CssModule/>
+    <ToolBar/>
   )
 }
 
