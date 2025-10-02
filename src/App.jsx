@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import EventPropegation from './components/day3/EventPropegation'
+import Signup from './components/day3/Signup'
 function App() {
 
   return (
-    <EventPropegation/>
+    <Signup/>
   )
 }
 
