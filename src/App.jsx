@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import Signup from './components/day3/Signup'
+import CssModule from './components/day3/CssModules/CssModule'
 function App() {
 
   return (
-    <Signup/>
+    <CssModule/>
   )
 }
 
