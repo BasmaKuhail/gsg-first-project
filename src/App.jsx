@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import CssModule from './components/day3/CssModules/CssModule'
+import Form from './components/day3/Excesises/Ex7'
 function App() {
 
   return (
-    <CssModule/>
+    <Form/>
   )
 }
 
