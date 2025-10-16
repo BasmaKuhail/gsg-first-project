@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import MovingDot from './components/day4/UpdateObject'
+import Form from './components/day4/FormObject'
 function App() {
 
   return (
-    <MovingDot/>
+    <Form/>
   )
 }
 
