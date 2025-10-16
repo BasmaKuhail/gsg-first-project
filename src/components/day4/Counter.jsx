@@ -9,12 +9,14 @@ export default function Counter(){
             <button
                 onClick={() =>{
                     setCounter(counter +1);
-                    // alert(counter); //will alert the old value
                     // setCounter(counter +1);
                     // setCounter(counter +1);
                     //no mater how many times we update the state, it only updates one
-                    setTimeout(()=>{
-                        alert(counter) },3000);
+                    
+                    // alert(counter); //will alert the old value
+
+                    // setTimeout(()=>{
+                    //     alert(counter) },3000);
                 }}>
                 add 1
             </button>

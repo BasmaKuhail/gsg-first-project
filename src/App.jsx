@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import Counter from './components/day4/Counter'
+import UpdateState from './components/day4/UpdateState'
 function App() {
 
   return (
-    <Counter/>
+    <UpdateState/>
   )
 }
 
