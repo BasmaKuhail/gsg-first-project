@@ -2,7 +2,7 @@ import { useState } from "react"
 
 export default function Form(){
     let [message, setMessage] = useState("Hi, ");
-    let[isSent, setIsSent] =useState(false);
+    let [isSent, setIsSent] =useState(false);
 
     const saveMsg =(e) => {
         setMessage(e.target.value);
