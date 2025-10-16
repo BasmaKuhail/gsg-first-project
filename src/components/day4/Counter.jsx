@@ -9,8 +9,8 @@ export default function Counter(){
             <button
                 onClick={() =>{
                     //setCounter(counter +1);
-                    // setCounter(counter +1);
-                    // setCounter(counter +1);
+                    // setCounter(counter +3);
+                    // setCounter(counter +4);
                     //no mater how many times we update the state, it only updates one
                     
                     // alert(counter); //will alert the old value
@@ -21,11 +21,26 @@ export default function Counter(){
 
                     //this way react is gonna queue all the functions and excute them one by one
                     //this way it will update the counter 3 times
-                    setCounter((prev) => prev +1);
-                    setCounter((ba) => ba +1);
-                    setCounter((foo) => foo +1);
+                    // setCounter((prev) => prev +1);
+                    // setCounter((ba) => ba +1);
+                    // setCounter((foo) => foo +1);
+
+                    //another example
+                    //if we do this it will add 6
+                    setCounter(counter +5);
+                    setCounter((n) => n+1);
+
+
+                    //if we do this it will add 5
+                    // setCounter((n) => n+1);
+                    // setCounter(counter +5);
+
+                    //this will take the most updated value: 25
+                    setCounter(counter +5);
+                    setCounter((n) => n+1);
+                    setCounter(25);
                 }}>
-                add 3
+                add
             </button>
         </>
     )
