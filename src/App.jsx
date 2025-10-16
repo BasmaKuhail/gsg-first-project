@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import Counter from './components/day4/Counter'
+import RequestTracker from './components/excersises-d4/Ex9'
 function App() {
 
   return (
-    <Counter/>
+    <RequestTracker/>
   )
 }
 
