@@ -24,5 +24,6 @@ export default function Counter(){
                     </button>
                 </li>
             ))}
-        </ul>);
+        </ul>
+    );
 }

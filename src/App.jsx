@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import Counter from './components/day5/ReplaceArray'
+import Accordion from './components/day5/SharedState'
 function App() {
 
   return (
-    <Counter/>
+    <Accordion/>
   )
 }
 
