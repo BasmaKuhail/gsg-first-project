@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import ShapeEditor from './components/day5/TransformArray'
+import Counter from './components/day5/ReplaceArray'
 function App() {
 
   return (
-    <ShapeEditor/>
+    <Counter/>
   )
 }
 
