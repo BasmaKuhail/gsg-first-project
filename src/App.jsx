@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import Array from './components/day5/UpdateArray'
+import RemoveFromArr from './components/day5/RemoveFromArray'
 function App() {
 
   return (
-    <Array/>
+    <RemoveFromArr/>
   )
 }
 
