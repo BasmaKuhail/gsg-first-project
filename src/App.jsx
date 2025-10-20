@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import Counter from './components/day6/Ref'
+import StopWatch from './components/day6/StopWatch'
 function App() {
 
   return (
-    <Counter/>
+    <StopWatch/>
   )
 }
 
