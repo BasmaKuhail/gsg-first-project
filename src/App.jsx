@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import StopWatch from './components/day6/StopWatch'
+import VideoPlayerApp from './components/day6/SyncWithEffects'
 function App() {
 
   return (
-    <StopWatch/>
+    <VideoPlayerApp/>
   )
 }
 
