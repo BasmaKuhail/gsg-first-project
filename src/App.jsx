@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import VideoPlayerApp from './components/day6/SyncWithEffects'
+import Form from './components/excersitses-d7/Ex17'
 function App() {
 
   return (
-    <VideoPlayerApp/>
+    <Form/>
   )
 }
 
