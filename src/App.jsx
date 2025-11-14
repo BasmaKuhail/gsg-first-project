@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
 
-import Form from './components/excersitses-d7/Ex17'
+import ChangeText from './components/reactHooks/UseState'
+import UseEffect from './components/reactHooks/UseEffect'
 function App() {
 
   return (
-    <Form/>
+    <UseEffect/>
   )
 }
 
