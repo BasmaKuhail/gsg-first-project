@@ -6,10 +6,11 @@ import UseEffect from './components/reactHooks/UseEffect'
 import USeRef from './components/reactHooks/UseRef'
 import UseMemo from './components/reactHooks/UseMemo'
 import USeCallBack from './components/reactHooks/UseCallBack'
+import Button from './components/TypeScript/Button'
 function App() {
 
   return (
-    <USeCallBack/>
+    <Button onClick={() => console.log("clicker")}>Click HEre!!!</Button>
   )
 }
 
